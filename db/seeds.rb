@@ -7,10 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Favorite.create(name: "supercars")
+hypercars = Favorite.create(name: "hypercars")
+supercars = Favorite.create(name: "supercars")
+regularcars = Favorite.create(name: "regular cars")
 
 Car.create(name: "nissan gtr")
 
-Favorite.create(name: "sedans")
+
 
 Car.create(name: "mercedes c300")
+
