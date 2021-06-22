@@ -10,7 +10,7 @@ Favorite.destroy_all
 
 hypercars = Favorite.create(name: "Hyper Car")
 supercars = Favorite.create(name: "Super Car")
-regularcars = Favorite.create(name: "Regular Cars")
+regularcars = Favorite.create(name: "Regular Car")
 
 Car.create(name: "Nissan GTR", favorite: supercars)
 Car.create(name: "Ariel Atom", favorite: hypercars)
