@@ -5,8 +5,11 @@ class CarsController < ApplicationController
     end
 
     def destroy
-        car = Car.find(params[:id]).destroy
+        car = Car.find(params[:id])
+        car.destroy
         render :json => {id: params[:id], message: "Record was successfully deleted"}
+      
+        
         # if  car.destroy
         # render :json => {id: params[:id], message: "Record was successfully deleted"}
         # else

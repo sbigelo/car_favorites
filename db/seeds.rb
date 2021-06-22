@@ -8,23 +8,23 @@
 Car.destroy_all
 Favorite.destroy_all
 
-hypercars = Favorite.create(name: "hypercars")
-supercars = Favorite.create(name: "supercars")
-regularcars = Favorite.create(name: "regularcars")
+hypercars = Favorite.create(name: "Hyper Car")
+supercars = Favorite.create(name: "Super Car")
+regularcars = Favorite.create(name: "Regular Cars")
 
-Car.create(name: "nissan gtr", favorite: supercars)
-Car.create(name: "atom", favorite: hypercars)
-Car.create(name: "toyota", favorite: regularcars)
-Car.create(name: "prius", favorite: regularcars)
-Car.create(name: "mercedes c300", favorite: regularcars)
+Car.create(name: "Nissan GTR", favorite: supercars)
+Car.create(name: "Ariel Atom", favorite: hypercars)
+Car.create(name: "Toyota Camry", favorite: regularcars)
+Car.create(name: "Honda Civic", favorite: regularcars)
+Car.create(name: "Mercedes C300", favorite: regularcars)
 
-Car.create(name: "nissan leaf", favorite: regularcars)
-Car.create(name: "bugatti veyron", favorite: hypercars)
-Car.create(name: "hyundai", favorite: regularcars)
-Car.create(name: "toyota rav4", favorite: regularcars)
-Car.create(name: "lotus exige", favorite: supercars)
-Car.create(name: "ariel atom", favorite: hypercars)
-Car.create(name: "porsche 911 gt3rs", favorite: hypercars)
-Car.create(name: "mercedes sls amg", favorite: supercars)
+Car.create(name: "Nissan Leaf", favorite: regularcars)
+Car.create(name: "Bugatti Veyron", favorite: hypercars)
+Car.create(name: "Hyundai Tucson", favorite: regularcars)
+Car.create(name: "Toyota Rav4", favorite: regularcars)
+Car.create(name: "Lotus Exige", favorite: supercars)
+Car.create(name: "Mclaren P1", favorite: hypercars)
+Car.create(name: "Porsche 911 GT3RS", favorite: hypercars)
+Car.create(name: "Sercedes SLS Amg", favorite: supercars)
 
 
