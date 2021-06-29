@@ -25,6 +25,6 @@ Car.create(name: "Toyota Rav4", favorite: regularcars)
 Car.create(name: "Lotus Exige", favorite: supercars)
 Car.create(name: "Mclaren P1", favorite: hypercars)
 Car.create(name: "Porsche 911 GT3RS", favorite: hypercars)
-Car.create(name: "Sercedes SLS Amg", favorite: supercars)
+Car.create(name: "Mercedes SLS Amg", favorite: supercars)
 
 
