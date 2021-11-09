@@ -1,4 +1,4 @@
 class Car < ApplicationRecord
-    validates :name, uniqueness: true
+    validates :name, presence: true, uniqueness: true
     belongs_to :favorite
 end

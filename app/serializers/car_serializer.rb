@@ -1,6 +1,6 @@
 class CarSerializer
     include FastJsonapi::ObjectSerializer
-    attributes :name, :favorite_id
+    attributes :name, :img, :favorite_id
     belongs_to :favorite
 
 end

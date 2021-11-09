@@ -12,14 +12,14 @@ class CarsController < ApplicationController
 
     def create
         favorite = Favorite.find_by(name: params[:favorite])
-        car = Car.create(name: params[:name], favorite: favorite)
+        car = Car.create(name: params[:name], img: params[:img], favorite: favorite)
         render :json => car, :include => :favorite, :status => 201
     end
 
     private
 
     def car_params
-        params.require(:car).permit(:name, :favorite_id)
+        params.require(:car).permit(:name, :img, :favorite_id)
     end
 
 

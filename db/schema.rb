@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_03_210040) do
+ActiveRecord::Schema.define(version: 2021_11_09_211913) do
 
   create_table "cars", force: :cascade do |t|
     t.string "name"
     t.integer "favorite_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "img"
   end
 
   create_table "favorites", force: :cascade do |t|
