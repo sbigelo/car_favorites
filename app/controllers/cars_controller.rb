@@ -7,7 +7,6 @@ class CarsController < ApplicationController
     def destroy
         car = Car.find(params[:id])
         car.destroy
-        # render json: {id: params[:id], message: "Record was successfully deleted"}
     end
 
     def create
